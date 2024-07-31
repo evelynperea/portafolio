@@ -21,7 +21,7 @@
 <body>
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+        <nav class="navbar fixed-top navbar-expand-lg bg-black" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand text-white" href="#">Evelyn</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -54,20 +54,28 @@
 
 
 
-    <main>
-        <section id="presentacion" class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row align-items-center g-5 py-5">
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Evelyn Perea
-                    </h1>
-                    <p class="lead">Analista de datos con un título en Administración de Empresas. Como lectora
-                        apasionada, aplico un enfoque crítico y detallado en mi trabajo, transformando datos complejos
-                        en información clara y útil. Mi interés en la programación e idiomas me permite optimizar
-                        procesos y comunicarme de manera efectiva en diversos contextos. </p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
-                        <button type="button"
-                            class="btn btn-outline-secondary btn-lg px-4">evelyncperea@gmail.com</button>
+    <main class="pb-3">
+        <section id="presentacion" class="container-fluid" data-bs-theme="dark">
+
+            <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
+                <div class="row flex-lg-row align-items-center g-5 py-5">
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-white lh-1 mb-3">Evelyn Perea
+                        </h1>
+                        <p class="lead text-white">Analista de datos con un título en Administración de Empresas. Como
+                            lectora
+                            apasionada, aplico un enfoque crítico y detallado en mi trabajo, transformando datos
+                            complejos
+                            en información clara y útil. Mi interés en la programación e idiomas me permite optimizar
+                            procesos y comunicarme de manera efectiva en diversos contextos. </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a
+                                    class="link-offset-2 link-underline link-underline-opacity-0 text-white"
+                                    href="https://www.linkedin.com/in/evelyn-perea-734704316/"
+                                    role="button">Linkeind</a> </button>
+                            <button type="button"
+                                class="btn btn-outline-secondary btn-lg px-4">evelyncperea@gmail.com</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,11 +89,11 @@
                 <div class="col d-flex align-items-start">
                     <div
                         class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 py-2 px-3 ">
-                        <i class="bi bi-bookmark-star"></i>
+                        <i class="bi bi-clipboard-data"></i>
                     </div>
                     <div>
                         <h3 class="fs-2 text-body-emphasis">Análisis de Datos</h3>
-                        <p>Manejo herramientas como Excel, SQL, Tableau para transformar datos en insights claros para
+                        <p>Manejo herramientas como Excel, SQL, Tableau para transformar datos en insights claros, así, poder tomar
                             decisiones informadas y estrategias efectivas.</p>
                     </div>
                 </div>
@@ -93,7 +101,7 @@
                 <div class="col d-flex align-items-start">
                     <div
                         class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 py-2 px-3 ">
-                        <i class="bi bi-bookmark-star"></i>
+                        <i class="bi bi-code-square"></i>
                     </div>
                     <div>
                         <h3 class="fs-2 text-body-emphasis">Desarrollo Web</h3>
@@ -135,7 +143,8 @@
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="d-flex align-items-center me-3">
                                     <i class="bi bi-code-square text-secondary-emphasis"></i>
-                                    <a href="https://statuesque-pudding-46142d.netlify.app" target="_blank" class="ps-3">URL</a>
+                                    <a href="https://statuesque-pudding-46142d.netlify.app" target="_blank"
+                                        class="ps-3">URL</a>
                                 </li>
                             </ul>
                         </div>
@@ -151,7 +160,8 @@
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="d-flex align-items-center me-3">
                                     <i class="bi bi-code-square text-secondary-emphasis"></i>
-                                    <a href="https://astonishing-zabaione-dafea5.netlify.app" target="_blank" class="ps-3">URL</a>
+                                    <a href="https://astonishing-zabaione-dafea5.netlify.app" target="_blank"
+                                        class="ps-3">URL</a>
                                 </li>
                             </ul>
                         </div>
@@ -179,57 +189,40 @@
         </section>
 
 
-        <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
-                        aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
-                        class="active" aria-current="true"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
-                        class=""></button>
-                </div>
+        <section id="testimonios" class="mb-5">
+            <h1 class="text-center my-5">Testimonios</h1>
+            <div id="myCarousel" class="carousel slide carousel-dark mb-6 carousel-fade p-4" data-bs-theme="dark"
+                data-bs-ride="carousel">
+    
                 <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
+                        <article class="container text-center">
+                            <img class="rounded-4" src="assets/doctora.png" height="140" alt="Testimonio 1">
+                            <h3 class="my-3">Dra. Katia Pineda</h3>
+                            <p>"Evelyn tiene altos estándares en la organización, lo que nos ayudó en distintas
+                                ocasiones para alcanzar objetivos." </p>
+                        </article>
                     </div>
+
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                            </div>
-                        </div>
+                        <article class="container text-center">
+                            <img class="rounded-4" src="assets/maestra.png" height="140" alt="Testimonio 2">
+                            <h3 class="my-3">Mtra. Juana Campos</h3>
+                            <p>"Evelyn logró finalizar en tiempo récord una tarea de recopilación de datos,
+                                ayudándonos a terminar un proyecto importante en el límite establecido." </p>
+                        </article>
                     </div>
+
+                    <div class="carousel-item">
+                        <article class="container text-center">
+                            <img class="rounded-4" src="assets/tec.jpg" height="140" alt="Testimonio 3">
+                            <h3 class="my-3">Tec. Isabelina Martínez </h3>
+                            <p>"Excelente trabajo en proyectos colaborativos, el trabajo con Evelyn es ameno y fluye de
+                                la mejor manera." </p>
+                        </article>
+                    </div>
+
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -247,15 +240,22 @@
 
 
 
-    <footer id="contacto" class="py-3 my-4">
+    <footer id="contacto" class="bg-black py-3 mt-3" data-bs-theme="dark">
+        <h4 class="text-white text-center my-5">"Con la recopilación de datos, ‘cuanto antes mejor’ es siempre la mejor
+            respuesta."</h4>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+
+
+            <li class="nav-item fs-2"><a href="https://github.com/evelynperea" target="_blank"
+                    class="nav-link px-2 text-body-secondary">
+                    <i class="bi bi-github text-white"></i>
+                </a></li>
+            <li class="nav-item fs-2"><a href="https://www.linkedin.com/in/evelyn-perea-734704316/" target="_blank"
+                    class="nav-link px-2 text-body-secondary">
+                    <i class="bi bi-linkedin text-white"></i>
+                </a></li>
         </ul>
-        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+        <p class="text-center text-body-secondary">© 2024 Evelyn, TECHNOLOCHICAS PRO</p>
     </footer>
 
 
