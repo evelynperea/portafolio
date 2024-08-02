@@ -1,3 +1,10 @@
+body {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
 #presentacion {
     height: 90vh;
     display: flex;
@@ -37,3 +44,31 @@
 
 .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
 .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+
+.navbar {
+    background-color: #3d7d97;
+}
+
+.boton {
+    background-color: #3d7d97
+}
+
+
+.fondo-pie {
+    background-image: url("assets/2.jpg");
+}
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.icon {
+    color: #3d7d97 ;
+}
+
+
